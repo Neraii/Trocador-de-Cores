@@ -10,7 +10,7 @@ function pegaSequenciaAleatoria() {
     let array = '';
     for (let i = 0; i < 8; i++) {
         
-        numero = Math.round(Math.random() * 16);
+        numero = Math.round(Math.random() * 15);
         array += numero.toString(16);
     }
     return array
